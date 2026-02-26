@@ -1,0 +1,48 @@
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    padding: 20px;
+     }
+.box2 { 
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.box3 {
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    position: absolute;
+    top: 100px;
+    left: 100px;    
+}
+.box4 {
+    width: 150px;
+    height: 100px;
+    background-color:orangered;
+    position: absolute;
+    top: 160px;
+    left: 150px;
+}
+.box5 {
+    width: 170px;
+    height: 150px;
+    background-color: rgb(106, 213, 106);
+    position: absolute;
+    top: 180px;
+    left: 120px;
+}
+.box6 {
+    width: 200px;
+    height: 190px;
+    background-color: red;
+    position: absolute;
+    top:130px;
+    left: 180px;
+    z-index: 2;
+}
