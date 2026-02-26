@@ -1,0 +1,58 @@
+.body {
+    margin: 0;
+    background-color: white;
+    font-family: Arial,sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+.langue {
+    font-size: 14px;
+    font-weight: 14px;
+    color: gray;
+}
+.form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.form input {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid gainsboro;
+    border-radius: 12px;
+    font-size: 16px;
+}
+.btn-login {
+    background-color: rgba(19, 19, 247, 0.766);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 16px;
+}
+.forgot {
+    margin: 20px;
+    font-size: 14px;
+}
+.btn-create {
+    width: 400px;
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid rgb(16, 16, 224);
+    border-radius: 20px;
+    color: blue;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 15px;
+}
+.logo {
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.blue { color: blue;}
