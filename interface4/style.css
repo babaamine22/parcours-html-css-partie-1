@@ -1,0 +1,95 @@
+.body{
+    font-family: 'Trebuchet MS',  Arial, sans-serif;
+    background-color: #f3cb67c2;
+    color: #181818;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    background-color: rgba(242, 182, 91, 0.599);
+    padding: 20px;
+}
+.en-tete{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid maroon;
+    
+    
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+nav li {
+    margin-left: 15px;
+}
+nav a{
+    text-decoration-line: none;
+    color: #444;
+    font-weight: bold;
+}
+.active{
+    border-bottom: 3px solid rgba(172, 64, 64, 0.912);
+    color: rgba(205, 54, 54, 0.958);
+}
+.banniere{
+    background:  url(pont.png) no-repeat;
+    background-size: cover;
+    height: 250px;
+    border-radius: 10px;
+    position: relative;
+    border: 5px soloid white;
+    
+
+}
+.b-description{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.584);
+    color: white;
+    width: 98%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-rouge{
+    text-decoration: none;
+    background-color: rgba(180, 24, 24, 0.785);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 18px;
+
+}
+.media{
+    display: flex;
+    margin-top: 20px;
+}
+article{
+    padding-right: 30px;
+}
+aside{
+    font-size: 0,9em;
+    background-color: #444;
+    color:white;
+    padding: 15px;
+    border-radius: 10px;
+}
+footer{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 2px solid maroon;
+}
+footer h1 {font-size: 1.1em;
+color: #b04b32;}
+.amis ul{
+    color: #b04b32;
+    
+}
+
