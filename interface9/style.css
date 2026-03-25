@@ -53,6 +53,7 @@ body{
     border: none;
     font-weight:bold ;
     color: grey;
+    outline: none;
 }
 
 ul li{
